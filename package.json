@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "chat": "node --watch chat-historia/server.js",
+    "deudas": "node chat-deudas.js"
   },
   "keywords": [],
   "author": "",

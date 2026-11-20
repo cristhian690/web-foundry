@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Historia del Perú</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div class="brand">
+        <svg class="bandera" viewBox="0 0 3 2" aria-label="Bandera del Perú" role="img">
+          <rect width="1" height="2" x="0" fill="#D91023"/>
+          <rect width="1" height="2" x="1" fill="#FFFFFF"/>
+          <rect width="1" height="2" x="2" fill="#D91023"/>
+        </svg>
+        <h1>Historia del Perú</h1>
+      </div>
+      <button id="nuevo" class="ghost" type="button" title="Nueva conversación">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <span>Nueva</span>
+      </button>
+    </header>
+
+    <main id="chat" class="chat" aria-live="polite">
+      <section id="bienvenida" class="welcome">
+        <h2>Hola, ¿en qué te puedo ayudar?</h2>
+      </section>
+    </main>
+
+    <form id="form" class="composer" autocomplete="off">
+      <textarea id="texto" rows="1" maxlength="1000" placeholder="Escribe tu pregunta…" aria-label="Mensaje"></textarea>
+      <button id="enviar" type="submit" class="send" aria-label="Enviar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12 20 4l-6 16-2.5-6.5Z" fill="currentColor"/></svg>
+      </button>
+    </form>
+    <p class="nota">Las respuestas son generadas por IA; verifica los datos importantes.</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "dni": "12345678",
+    "nombre": "Ana Torres",
+    "deuda": 250.5
+  },
+  {
+    "dni": "87654321",
+    "nombre": "Luis Ramírez",
+    "deuda": 1200
+  },
+  {
+    "dni": "45678912",
+    "nombre": "María Quispe",
+    "deuda": 0
+  },
+  {
+    "dni": "74125896",
+    "nombre": "Carlos Huamán",
+    "deuda": 89.9
+  }
+]
